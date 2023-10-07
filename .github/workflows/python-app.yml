@@ -7,18 +7,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x' # Specify your Python version
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x" # Specify your Python version
 
-    - name: Install dependencies
-      run: |
-        pip install requests
-        pip install beautifulsoup4
+      - name: Install dependencies
+        run: |
+          pip install requests
+          pip install beautifulsoup4
 
-    - name: Run Python script
-      run: python worldcupStats.py # Replace with your script's filename
+      - name: Run Python script
+        run: python worldcupStats.py # Replace with your script's filename
+
+      - name: Upload JSON artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: json-artifacts
+          path: ./*.json # Replace with the path to your generated JSON files
