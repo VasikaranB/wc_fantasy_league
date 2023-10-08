@@ -504,7 +504,7 @@ export const teamsData = [
     teamName: "Yeshwant and Siddharth",
     players: [
       {
-        name: "GurbaRahmanullah Gurbaz (AFG)z",
+        name: "Rahmanullah Gurbaz (AFG)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
