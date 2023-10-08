@@ -7,10 +7,9 @@ import { updateTeamDataWithRunsAndWickets } from "./util/calc";
 
 function App() {
   const [team, setTeam] = useState([]);
-  let teamDat = []
 
   useEffect(() => {
-    teamDat = updateTeamDataWithRunsAndWickets();
+    let teamDat = updateTeamDataWithRunsAndWickets();
     setTeam(teamDat)
     console.log(teamDat, team)
   }, [])
