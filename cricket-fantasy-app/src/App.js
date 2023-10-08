@@ -13,7 +13,7 @@ function App() {
     teamDat = updateTeamDataWithRunsAndWickets();
     setTeam(teamDat)
     console.log(teamDat, team)
-  })
+  }, [])
 
 
   return (
