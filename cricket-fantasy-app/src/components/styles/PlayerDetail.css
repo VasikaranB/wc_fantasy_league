@@ -1,0 +1,78 @@
+/* Header Styles */
+.dashboard-header {
+    background-color: #320073;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .dashboard-header button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* Team Details Styles */
+  .team-details {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .team-details h2 {
+    font-size: 24px;
+    color: #320073;
+  }
+  
+  .team-details p {
+    font-size: 18px;
+  }
+  
+  /* Player Card Styles */
+  .player-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    padding-bottom: 4rem;
+  }
+  
+  .player-card {
+    background-color: #320073;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 200px;
+    flex: 0 0 calc(50% - 40px); /* 2 players per row for desktop */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .player-card h3 {
+    font-size: 20px;
+  }
+  
+  .player-card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .player-card {
+      flex: 0 0 calc(100% - 40px); /* 1 player per row for mobile */
+    }
+  }
+  

@@ -1,0 +1,94 @@
+/* Dashboard Page Styles */
+.dashboard-header {
+  background-image: url("./dashboard.webp");
+  background-size: cover;
+  background-position-y: 25%;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.dashboard-widget {
+  background-color: #320073;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  min-width: 200px;
+  text-align: center;
+  width: 50vh;
+}
+
+.dashboard-button {
+  background-color: #320073;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dashboard-button:hover {
+  background-color: #6a00b6; /* Darker purple on hover */
+}
+
+@media (max-width: 768px) {
+  /* Center-align widgets on smaller screens */
+  .dashboard-content {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 4rem;
+  }
+  .dashboard-widget {
+    min-width: 50px;
+    width: 330px;
+    display: block;
+  }
+
+  .footerd {
+    position: fixed !important;
+  }
+}
+a {
+  text-decoration: none;
+}
+.footerd {
+    background-color: #320073;
+    text-align: right;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+  }
+  
+  /* Copyright Styles */
+  .footerd p {
+    font-size: 16px;
+    margin: 0;
+    padding-right: 10px;
+  }
+  .backbtn {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
