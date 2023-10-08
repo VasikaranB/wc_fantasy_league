@@ -33,7 +33,7 @@ function Home(props) {
         <section id="how-to-play" className="section">
           <div className="section-content">
             <h2 className="section-title">How to Play</h2>
-            Create a dream 14 member team from World cup squad with atleast 5
+            Create a dream 15 member team from World cup squad with atleast 5
             batters and 4 bowlers to win the tournament.
           </div>
         </section>
@@ -48,7 +48,7 @@ function Home(props) {
         <section id="prizes" className="section">
           <div className="section-content">
             <h2 className="section-title">Prizes</h2>
-            Do not expect any prices as these kanjos didnt even pay single penny
+            Do not expect any prizes as these kanjos didnt even pay single penny
             to me for creating this website.
           </div>
         </section>
