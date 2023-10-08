@@ -5,7 +5,6 @@ import './styles/Dashboard.css'; // Import your CSS file
 
 const Dashboard = (props) => {
   console.log(props, props?.teamDat)
-  const teamsData = props?.teamDat
   return (
     <div>
       <div className="dashboard-header">
@@ -13,9 +12,9 @@ const Dashboard = (props) => {
         
       </div>
       <div className='backbtn'>
-      <a href="/" className="dashboard-button">
+      <Link to="/" className="dashboard-button">
           Go to Home
-        </a>
+        </Link>
       </div>
      <div className="dashboard-content">
        {props?.teamDat ? props?.teamDat.map((team) => (

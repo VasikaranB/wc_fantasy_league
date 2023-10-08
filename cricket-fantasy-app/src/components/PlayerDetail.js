@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/PlayerDetail.css'
-import { teamsData } from '../util/teams';
+import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom'
 
 function HeaderView() {
@@ -26,9 +26,9 @@ const PlayerDetail = (props) => {
         
       </div>
       <div className='backbtn'>
-      <a href="/dashboard" className="dashboard-button">
+      <Link to="/dashboard" className="dashboard-button">
           Go to Dashboard
-        </a>
+        </Link>
       </div>
        
       {props?.teamDat.length > 0 ? <>
