@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Dashboard from "./components/Dashboard";
 import PlayerDetail from "./components/PlayerDetail";
+import ScrollToTop from "./components/ScrollToTop";
 import { updateTeamDataWithRunsAndWickets } from "./util/calc";
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
 
   return (
     <Router>
+      
       <div>
+        <ScrollToTop />
         <Routes>
           <Route path="/" exact element={<Home teamDat={team}/>} />
           <Route path="/dashboard" exact element={<Dashboard teamDat={team}/>} />
