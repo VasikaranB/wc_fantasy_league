@@ -434,7 +434,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Tom Latham (NZ)",
+        name: "TWM Latham (NZ)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
