@@ -67,7 +67,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Daryl",
+        name: "DJ Mitchell (NZ)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
