@@ -43,7 +43,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "S Iyer (IND)",
+        name: "SS Iyer (IND)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
@@ -168,7 +168,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "R Sharma (IND)",
+        name: "RG Sharma (IND)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
@@ -333,7 +333,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Chapman",
+        name: "MS Chapman (NZ)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
