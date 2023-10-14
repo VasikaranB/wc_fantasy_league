@@ -10,7 +10,7 @@ export function updateTeamDataWithRunsAndWickets() {
       for (const battingPlayer of battingData) {
         if (battingPlayer.Player.includes(playerName)) {
           // Update runs
-          player.runs = parseInt(battingPlayer.Runs)? player.runs + parseInt(battingPlayer.Runs) : 0;
+          player.runs = parseInt(battingPlayer.Runs)? parseInt(battingPlayer.Runs) : 0;
 
           // Calculate batting points
           player.battingPoints = player.runs * 1;
