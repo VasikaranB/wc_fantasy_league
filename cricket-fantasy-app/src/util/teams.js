@@ -499,7 +499,7 @@ export const teamsData = [
       },
       {
         name: "Abdullah Shafique (PAK)",
-        runs: 0,
+        runs: -133,
         wickets: 0,
         battingPoints: 0,
         bowlingPoints: 0,
