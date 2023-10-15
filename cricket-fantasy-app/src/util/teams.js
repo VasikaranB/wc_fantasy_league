@@ -592,7 +592,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Thakur",
+        name: "SN Thakur (IND)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
