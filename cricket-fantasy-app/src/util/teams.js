@@ -616,7 +616,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Kane",
+        name: "KS Williamson (NZ)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
