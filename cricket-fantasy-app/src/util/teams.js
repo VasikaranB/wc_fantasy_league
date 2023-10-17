@@ -497,6 +497,14 @@ export const teamsData = [
         bowlingPoints: 0,
         totalPoints: 0,
       },
+      {
+        name: "Abdullah Shafique (PAK)",
+        runs: -133,
+        wickets: 0,
+        battingPoints: 0,
+        bowlingPoints: 0,
+        totalPoints: 0,
+      },
     ],
   },
 
@@ -584,7 +592,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Thakur",
+        name: "SN Thakur (IND)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
@@ -608,7 +616,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Kane",
+        name: "KS Williamson (NZ)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
@@ -618,6 +626,14 @@ export const teamsData = [
       {
         name: "H Klaasen (SA)",
         runs: 0,
+        wickets: 0,
+        battingPoints: 0,
+        bowlingPoints: 0,
+        totalPoints: 0,
+      },
+      {
+        name: "WA Young (NZ)",
+        runs: -70,
         wickets: 0,
         battingPoints: 0,
         bowlingPoints: 0,
