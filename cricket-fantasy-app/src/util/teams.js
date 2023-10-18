@@ -309,7 +309,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Shubhman Gill (IND)",
+        name: "Shubman Gill (IND)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
