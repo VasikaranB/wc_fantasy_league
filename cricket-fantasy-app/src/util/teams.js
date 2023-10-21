@@ -410,7 +410,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Ben Stokes (ENG)",
+        name: "BA Stokes (ENG)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
