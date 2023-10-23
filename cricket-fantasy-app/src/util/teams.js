@@ -91,7 +91,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Theekshana",
+        name: "M Theekshana (SL)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
@@ -378,7 +378,7 @@ export const teamsData = [
     teamName: "Vasikaran",
     players: [
       {
-        name: "Noor Ahmed (AFG)",
+        name: "Noor Ahmad (AFG)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
@@ -536,7 +536,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Hridoy",
+        name: "Towhid Hridoy (BAN)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
@@ -544,7 +544,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Mahmudullah",
+        name: "Mahmudullah (BAN)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
@@ -693,7 +693,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "Shami",
+        name: "Mohammed Shami (IND)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
