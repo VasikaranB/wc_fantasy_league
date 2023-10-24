@@ -1,6 +1,6 @@
 export const teamsData = [
   {
-    teamName: "Kiren",
+    teamName: "Kiren (Fake Single)",
     players: [
       {
         name: "Hashmatullah Shahidi (AFG)",
@@ -125,7 +125,7 @@ export const teamsData = [
     ],
   },
   {
-    teamName: "Dinesh",
+    teamName: "Dinesh (Culprit)",
     players: [
       {
         name: "Rashid Khan (AFG)",
@@ -250,7 +250,7 @@ export const teamsData = [
     ],
   },
   {
-    teamName: "Shashank",
+    teamName: "Shashank (Mood Swings)",
     players: [
       {
         name: "M Labuschagne (AUS)",
@@ -375,7 +375,7 @@ export const teamsData = [
     ],
   },
   {
-    teamName: "Vasikaran",
+    teamName: "Vasikaran (The Innocent)",
     players: [
       {
         name: "Noor Ahmad (AFG)",
@@ -509,7 +509,7 @@ export const teamsData = [
   },
 
   {
-    teamName: "Yeshwant and Siddharth",
+    teamName: "Yeshwant and Siddharth (LGBT)",
     players: [
       {
         name: "Rahmanullah Gurbaz (AFG)",
@@ -642,7 +642,7 @@ export const teamsData = [
     ],
   },
   {
-    teamName: "Roshan and Naveen",
+    teamName: "Roshan and Naveen (Richie-Rich)",
     players: [
       {
         name: "Mohammad Nabi (AFG)",
