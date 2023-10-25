@@ -764,6 +764,14 @@ export const teamsData = [
         bowlingPoints: 0,
         totalPoints: 0,
       },
+      {
+        name: "G Coetzee (SA)",
+        runs: 0,
+        wickets: 0,
+        battingPoints: -25,
+        bowlingPoints: -10,
+        totalPoints: 0,
+      },
     ],
   },
 ];
