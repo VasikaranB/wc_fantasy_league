@@ -365,7 +365,7 @@ export const teamsData = [
         totalPoints: 0,
       },
       {
-        name: "SK Yadav (IND)",
+        name: "SA Yadav (IND)",
         runs: 0,
         wickets: 0,
         battingPoints: 0,
