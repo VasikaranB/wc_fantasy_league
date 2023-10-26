@@ -21,7 +21,7 @@ export const teamsData = [
       {
         name: "A Zampa (AUS)",
         runs: 0,
-        wickets: 0,
+        wickets: 1,
         battingPoints: 0,
         bowlingPoints: 0,
         totalPoints: 0,
