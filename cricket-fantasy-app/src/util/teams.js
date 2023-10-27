@@ -4,7 +4,7 @@ export const teamsData = [
     players: [
       {
         name: "Hashmatullah Shahidi (AFG)",
-        runs: 20,
+        runs: 0,
         wickets: 0,
         battingPoints: 0,
         bowlingPoints: 0,
@@ -21,14 +21,14 @@ export const teamsData = [
       {
         name: "A Zampa (AUS)",
         runs: 0,
-        wickets: 1,
+        wickets: 0,
         battingPoints: 0,
         bowlingPoints: 0,
         totalPoints: 0,
       },
       {
         name: "JM Bairstow (ENG)",
-        runs: 20,
+        runs: 0,
         wickets: 0,
         battingPoints: 0,
         bowlingPoints: 0,
@@ -68,7 +68,7 @@ export const teamsData = [
       },
       {
         name: "DJ Mitchell (NZ)",
-        runs: 20,
+        runs: 0,
         wickets: 0,
         battingPoints: 0,
         bowlingPoints: 0,
@@ -108,7 +108,7 @@ export const teamsData = [
       },
       {
         name: "Ibrahim Zadran (AFG)",
-        runs: 10,
+        runs: 0,
         wickets: 0,
         battingPoints: 0,
         bowlingPoints: 0,
