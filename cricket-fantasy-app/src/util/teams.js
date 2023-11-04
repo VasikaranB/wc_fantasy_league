@@ -121,10 +121,19 @@ export const teamsData = [
         battingPoints: 0,
         bowlingPoints: 0,
         totalPoints: 0,
-      },{
+      },
+      {
         name: "D Madushanka (SL)",
         runs: -9,
         wickets: -18,
+        battingPoints: 0,
+        bowlingPoints: 0,
+        totalPoints: 0,
+      },
+      {
+        name: "TM Head (AUS)",
+        runs: -120,
+        wickets: 0,
         battingPoints: 0,
         bowlingPoints: 0,
         totalPoints: 0,
