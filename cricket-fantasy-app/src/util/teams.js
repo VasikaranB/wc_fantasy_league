@@ -646,15 +646,7 @@ export const teamsData = [
         battingPoints: 0,
         bowlingPoints: 0,
         totalPoints: 0,
-      },
-      {
-        name: "WA Young (NZ)",
-        runs: -70,
-        wickets: 0,
-        battingPoints: 0,
-        bowlingPoints: 0,
-        totalPoints: 0,
-      },
+      }
     ],
   },
   {
